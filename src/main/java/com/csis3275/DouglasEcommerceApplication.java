@@ -8,7 +8,7 @@ public class DouglasEcommerceApplication {
 
 	public static void main(String[] args) {
 		SpringApplication.run(DouglasEcommerceApplication.class, args);
+		System.out.println("Application Successfully Run...");
 	}
 
 }
-d

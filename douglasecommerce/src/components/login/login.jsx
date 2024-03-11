@@ -1,7 +1,6 @@
 import React from "react";
 import { IoMdSearch } from 'react-icons/io';
 import { FaCaretDown, FaCartShopping } from 'react-icons/fa6';
-//import { Link } from "react-router-dom";
 
 const MenuLinks = [
   {
@@ -17,7 +16,7 @@ const MenuLinks = [
   {
     id: 2,
     name: "Login",
-    link: "../indexForm",
+    link: "/#login",
   }
 ];
 
