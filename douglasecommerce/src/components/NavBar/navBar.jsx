@@ -1,6 +1,6 @@
 import React from "react";
 import { IoMdSearch } from 'react-icons/io';
-import { FaCaretDown, FaCartShopping } from 'react-icons/fa6';
+import { FaCaretDown, FaCartShopping } from "react-icons/fa6";
 
 const MenuLinks = [
   {
@@ -97,7 +97,7 @@ const Navbar = ({ handleOrderPopup }) => {
               </ul>
             </div>
           </div>
-
+        
           {/* Navbar Right section */}
           <div className="flex justify-between items-center gap-4">
             {/* Search Bar section */}
@@ -105,7 +105,7 @@ const Navbar = ({ handleOrderPopup }) => {
               {/* onClick event happens here where user can directly search through api for a specfic product */}
               {/*NOT SURE WHY THIS CODE WONT SHOW THE TEXT FIX LATER*/}
               <input
-               type={"text"}
+               type="text"
                 required
                 placeholder='Search'
                 className="search-bar"
